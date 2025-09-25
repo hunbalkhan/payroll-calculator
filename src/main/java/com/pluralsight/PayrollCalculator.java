@@ -30,7 +30,7 @@ public class PayrollCalculator {
             grossPay = regularPay + overtimePay;
         }
 
-        // Printing Full name and gross pay calculated
+        // Printing Full name and gross pay calculated.
         System.out.printf("%s, you worked %.2f hours and your gross pay is %.2f.\n", name, hoursWorked, grossPay);
 
     }
