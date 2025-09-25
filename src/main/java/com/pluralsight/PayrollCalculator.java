@@ -26,7 +26,7 @@ public class PayrollCalculator {
         } else {
             double overtimeHours = hoursWorked - 40;
             double overtimePay = overtimeHours * payRate * 1.5;
-            double regularPay = 40 * payRate;
+            double regularPay = 40 * payRate; // Declaring regular pay of 40 hours as it will be added onto overtime pay for gross pay.
             grossPay = regularPay + overtimePay;
         }
 
